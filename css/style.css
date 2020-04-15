@@ -1,0 +1,262 @@
+/* #### GENERAL SECTION #### */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    outline: none;
+}
+
+*::selection {
+    background-color: #f29419;
+}
+
+body {
+    background-color: #202020;
+    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.chivo {
+    font-family: 'Chivo', sans-serif;
+    font-weight: 900;
+}
+
+.primary-color {
+    background: -webkit-linear-gradient(left, #f29419, #a53b5e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+nav, header, .about, .social, .hobbies {
+    background-color: #252525;
+    max-width: 1080px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* #### NAVBAR SECTION #### */
+
+nav.navbar {
+    padding: 1.5rem 5rem;
+    margin: 1.5rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav.navbar .brand-name {
+    text-transform: uppercase;
+    font-size: 3.2rem;
+}
+
+nav.navbar ul a {
+    font-family: 'Chivo', sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    display: block;
+}
+
+nav.navbar .col {
+    display: flex;
+    align-items: center;
+}
+
+
+/* #### HEADER SECTION #### */
+
+main header {
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem auto;
+    padding: 7.5rem 5rem;
+}
+
+main header .col {
+    width: 50%;
+}
+
+main header .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+main header .info p {
+    color: #ffffff;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+main header .info h1 {
+    font-size: 5.2rem;
+    text-transform: uppercase;
+}
+
+main header .info button {
+    display: inline-block;
+    background: -webkit-linear-gradient(left,  #f29419, #a53b5e);
+    font-weight: light;
+    border: none;
+    padding: 1.5rem;
+    font-size: 2rem;
+    color: #ffffff;
+    cursor: pointer;
+    width: 200px;
+    border-radius: 5px;
+    transition: width 0.2s ease-in-out;
+}
+
+main header .info button:hover {
+    width: 80%;
+}
+
+main header .image-me {
+    text-align: right;
+}
+
+main header .image-me img {
+    max-width: 300px;
+    border-radius: 50%;
+}
+
+
+
+/* #### ABOUT SECTION #### */
+
+main .about {
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem auto;
+}
+
+main .about .main {
+    padding: 5rem;
+    padding-right: 15rem;
+    width: 90%;
+}
+
+main .about .gradient { 
+    background: -webkit-linear-gradient(left,  #f29419, #a53b5e);
+    opacity: 0.6;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    border-radius: 0 5px 5px 0;
+    width: 10%;
+}
+
+main .about h1 {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+}
+
+main .about h2 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 2.5rem;
+}
+
+main .about p {
+    color: #ffffff;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    line-height: 2.5rem;
+    font-size: 1.4rem;
+}
+
+
+
+/* #### HOBBIES SECTION #### */
+
+main .hobbies {
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem auto;
+}
+
+main .hobbies .col {
+    width: 50%;
+}
+
+main .hobbies h1 {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+}
+
+main .hobbies ul {
+    padding-left: 2.5rem;
+}
+
+main .hobbies ul li, main .hobbies ul li b {
+    color: #ffffff;
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+}
+
+main .hobbies ul li {
+    list-style-type: disc;
+    margin-bottom: 2.5rem;
+}
+
+main .hobbies .list {
+    padding: 5rem;
+    padding-right: 15rem;
+}
+
+main .hobbies .image {
+    position: relative;
+    overflow: hidden;
+    border-radius: 0 5px 5px 0;
+}
+
+main .hobbies .image img {
+    height: 100%;
+}
+
+main .hobbies .image::after {
+    content: "";
+    position: absolute;
+    background: -webkit-linear-gradient(left,  #f29419, #a53b5e);
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transition: background ease-in-out 0.3s;
+}
+
+
+
+/* #### HOBBIES SECTION #### */
+
+main .social {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 1.5rem;
+    padding: 2.5rem;
+    align-items: center;
+}
+
+main .social a{
+    display: block;
+}
+
+main .social p{
+    color: #ffffff;
+    font-size: 1.4rem;
+}
+
+main .social img {
+    width: 3rem;
+    margin-right: 1.5rem;
+}
