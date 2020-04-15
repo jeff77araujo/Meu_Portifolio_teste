@@ -1,0 +1,64 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
+
+  .pequenoFooter {
+    width: 100%;
+    background-color: rgb(3, 3, 3);
+    color: white;
+    text-align: center;
+    margin: auto;
+  }
+
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+  }
+  
+  .navbar li {
+    float: left;
+  }
+  
+  .navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  .navbar li a:hover {
+    background-color: #111;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  body {
+    background-color: rgb(84, 117, 218);
+    color: seashell;
+    font-family: Arial;
+    font-size: 15pt;
+    text-shadow: 4px 4px 4px black;
+  }
+
+  .imagemFinal {
+    margin: auto;
+    text-align: center;
+  }
+
+  .fotojeff {
+    margin: auto;
+    text-align: center;
+  }
